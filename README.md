@@ -28,7 +28,7 @@ git-crypt unlock
 ## Usage
 From the Makefile included...
 
-# Show help message
+```
 .PHONY: help
 help:
 	@echo "Available commands:"
@@ -37,3 +37,4 @@ help:
 	@echo "  make stop    - Stop the Docker container"
 	@echo "  make rm      - Remove the Docker container"
 	@echo "  make shell   - Open a shell in the running container"
+```
